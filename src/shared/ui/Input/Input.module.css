@@ -1,0 +1,43 @@
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  color: var(--text-white);
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hint {
+  color: var(--text-primary-muted);
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.input {
+  padding: 0.5rem 1rem;
+  height: 2.5rem;
+  width: 7.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--white);
+  box-shadow: var(--shadow-white);
+}
+
+.errorText {
+  color: var(--danger);
+  font-size: 0.75rem;
+  background: var(--white);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}

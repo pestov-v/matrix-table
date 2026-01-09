@@ -1,0 +1,17 @@
+.sumCell {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-weight: 700;
+  background: var(--primary-gradient);
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color-primary);
+  min-width: 5rem;
+}
+
+.sumCell:hover,
+.hovered {
+  background: var(--primary-gradient-hover);
+  box-shadow: var(--shadow-primary-hover);
+}

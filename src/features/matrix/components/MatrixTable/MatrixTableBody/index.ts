@@ -1,0 +1,1 @@
+export { MatrixTableBody } from "./MatrixTableBody";

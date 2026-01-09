@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 1.5rem;
+  background: var(--primary-gradient);
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-primary-lg);
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hint {
+  color: var(--text-primary-muted);
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.submitButton {
+  margin-top: 1.625rem;
+}
